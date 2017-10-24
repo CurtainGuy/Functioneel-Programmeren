@@ -1,5 +1,6 @@
 -- | This module defines how the state changes
 --   in response to time and user input
+-- lololololtest
 module Controller where
 
 import Model
