@@ -27,5 +27,5 @@ input e gstate = return (inputKey e gstate)
 inputKey :: Event -> GameState -> GameState
 inputKey (EventKey (Char c) _ _ _) gstate
   = -- If the user presses a character key, show that one
-    gstate { infoToShow = ShowAPic "dude.png" }
+    gstate { infoToShow = ShowAPic "Sprites//dude.png" }
 inputKey _ gstate = gstate -- Otherwise keep the same
