@@ -5,6 +5,8 @@ module Model where
 data InfoToShow = ShowNothing
                 | ShowANumber Int
                 | ShowAChar   Char
+                | ShowACircle Float
+                | ShowAPic
 
 nO_SECS_BETWEEN_CYCLES :: Float
 nO_SECS_BETWEEN_CYCLES = 5
